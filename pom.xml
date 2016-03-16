@@ -9,6 +9,21 @@
   <packaging>bundle</packaging>
   <name>Fabric8 :: Quickstarts :: Karaf :: CXF REST</name>
   <description>REST example using CXF in Karaf container</description>
+  
+   <repositories>
+        <repository>
+          <id>lilly</id>
+          <name>llynexus</name>
+          <url>https://llynexus.am.lilly.com:8443/nexus/content/groups/LillyGroup</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>lilly</id>
+          <name>llynexus</name>
+          <url>https://llynexus.am.lilly.com:8443/nexus/content/groups/LillyGroup</url>
+        </pluginRepository>
+      </pluginRepositories>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
